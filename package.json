@@ -1,0 +1,21 @@
+{
+  "name": "weather-provider",
+  "version": "1.0.0",
+  "description": "Dispatch xls with daily dose of weather data grabbed by weather-grabber from apixu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flat": "^4.1.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.3",
+    "node-cron": "^2.0.3",
+    "node-persist": "^3.0.4",
+    "pify": "^4.0.1",
+    "xlsx-populate": "^1.19.1"
+  }
+}
